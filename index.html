@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/nasa.css">
+    <link rel="stylesheet" href="./CSS/media.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <header>
+            <h1> Galáxia Sem Limites </h1>
+        </header>
+
+        <main>
+
+            <section class="form">
+                <form>
+                    <p> 
+                        Insira a data à partir de 16/06/1995 <br>
+                        e confira o vídeo ou imagem do dia :
+                    </p>
+
+                    <div class="campo1">
+                        <input id="data" type="date" min="1995-06-16" />
+                    </div>
+                    
+                    <div class="campo2">
+                        <button id="submit" type="button" value="enviar"> Clique Aqui </button>
+                    </div>
+
+
+                </form>
+            </section>
+
+            <section class="nasa">
+
+                <h2 id="titulo"></h2>
+                <div id="midia"></div>
+                <p id="text"></p>
+
+            </section>
+
+        </main>
+
+        <footer> Todos os Direitos NasaApi 2022 </footer>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+        <script src="./JS/nasa2.js"></script>
+        <script src="./JS/nasa.js"></script>
+
+    </div>
+
+</body>
+</html>
