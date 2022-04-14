@@ -1,10 +1,12 @@
 body {    
-    background-image:url(../Imagens/Galaxy.jpg);
-    background-repeat: no-repeat;
+    background-image:url(../Imagens/nasa.png);
+    
     background-size: 1600px;   
+    
 }
 
 header {
+    background-color: rgba(0, 94, 255, 0.329);
     display: flex;
     flex-direction: row;
     justify-content: center;
